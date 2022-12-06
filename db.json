@@ -1,0 +1,154 @@
+{
+  "seller": [
+    {
+      "name": "nasreddine",
+      "password": "chaib",
+      "email": "nasreddine@gmail.fr",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "name": "Orange Honey",
+      "price": "35",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/orange.jpg",
+      "id": 1
+    },
+    {
+      "name": "Acacia Honey",
+      "price": "45",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/acacia.jpg",
+      "id": 2
+    },
+    {
+      "name": "clover Honey",
+      "price": "50",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/clover.jpg",
+      "id": 3
+    },
+    {
+      "name": "Fireweed Honey",
+      "price": "30",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/fireweed.jpg",
+      "id": 4
+    },
+    {
+      "name": "Sage Honey",
+      "price": "75",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/sage.jpg",
+      "id": 5
+    },
+    {
+      "name": "Tupelo Honey",
+      "price": "46",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/tupelo.jpg",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "nasr",
+      "email": "nasr@yahoo.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "ahmed",
+      "email": "abc",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "chaib",
+      "email": "chaib@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "chaib",
+      "email": "chaib@gmail.com",
+      "password": "123456",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "name": "Acacia Honey",
+      "price": "45",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/acacia.jpg",
+      "quantity": 5,
+      "productId": 2,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "Acacia Honey",
+      "price": "45",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/acacia.jpg",
+      "quantity": 5,
+      "productId": 2,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "name": "clover Honey",
+      "price": "50",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/clover.jpg",
+      "quantity": 10,
+      "productId": 3,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "name": "Sage Honey",
+      "price": "75",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/sage.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "name": "Sage Honey",
+      "price": "75",
+      "category": "honey",
+      "color": "",
+      "description": "",
+      "image": "../../../assets/sage.jpg",
+      "quantity": 6,
+      "productId": 5,
+      "userId": 1,
+      "id": 10
+    }
+  ]
+}

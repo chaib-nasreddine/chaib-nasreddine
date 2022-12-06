@@ -1,0 +1,55 @@
+<div class="banner">
+  <div class="content">
+    <h1>Kind words are like honey,<br>
+      sweet to the soul and healthy <br>
+      to the body.
+  </h1>
+  <br>
+  <a routerLink="menu">ORDER NOW<i class="bi bi-arrow-right"></i></a>
+  </div>
+</div>
+<div class="container mt-5 mb-4">
+  <h1 class="text-center">How To Get <span class="highlight">Naturel Honey  </span> </h1>
+  <div class="row mt-5">
+    <div class="col-lg-4 mt-2">
+        <div class="stepBox">
+          <h1>1</h1>
+          <p>select produit</p>
+        </div>
+    </div>
+
+    <div class="col-lg-4 mt-2">
+        <div class="stepBox">
+          <h1>2</h1>
+          <p>fill the details</p>
+        </div>
+    </div>
+
+    <div class="col-lg-4 mt-2">
+        <div class="stepBox">
+          <h1>3</h1>
+          <p>your order delivered in minute</p>
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="product-list-wrapper">
+<h1>Trendy Products</h1>
+<div class="row">
+  <div class="col-sm-4" *ngFor="let item of trendyProducts">
+    <div class="product-item">
+      <img src="{{item.image}}" alt="">
+    <div class="product-details">
+      <h6 class="name-head">{{item.name}}</h6>
+      <div class="product-price">
+        <h6>Price:{{item.price}}</h6>
+      </div>
+    </div>
+    <div class="product-footer">
+      <a class="btn btn-success" routerLink="/details/{{item.id}}">View Details</a>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
